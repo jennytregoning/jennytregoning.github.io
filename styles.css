@@ -117,13 +117,14 @@ footer {
 .story {
   position: relative;
   margin: 10px;
+  max-width: 250px;
 }
 .story a p {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: calc(100% - 40px);
   background-color: rgba(1, 1, 1, 0.52);
   color: white;
   padding-top: 10px;
@@ -135,7 +136,7 @@ footer {
 }
 
 .story img {
-  max-width: 250px;
+  width: 100%;
 }
 a:link {
   text-decoration: none;
